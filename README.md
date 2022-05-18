@@ -1,5 +1,5 @@
 # Bidirectional RRTs
-Bidirectional RRT / RRT* (BRRT/BRRT*) for path planning in 3D space. \
+Bidirectional RRT / RRT* for path planning in 3D space. \
 The implementation is on the basis of [this repo](https://github.com/ZJU-FAST-Lab/sampling-based-path-finding).
 ## How to Run
 First _catkin_make_. Then open two seperate terminals, _source_, and run:
