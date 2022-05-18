@@ -14,8 +14,8 @@
   <arg name="search_time" value="0.05" />
   <arg name="max_tree_node_nums" value="400" />
   <arg name="use_informed_sampling" value="true" />
-  <arg name="run_brrt" value="true" />
-  <arg name="run_brrt_star" value="false" />
+  <arg name="run_brrt" value="false" />
+  <arg name="run_brrt_star" value="true" />
 
   <node pkg="path_finder" type="path_finder" name="path_finder_node" output="screen">
     <remap from="/global_cloud" to="$(arg global_env_pcd2_topic)"/>
